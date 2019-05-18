@@ -1,64 +1,58 @@
 html {
     height: 100%;
 }
-
 body {
     font-family: Arial, Helvetica, sans-serif;
     width: 95%;
     margin: 2% auto;
     background-color:#403E2C;  
 }
-
 h1 {
 color: rgb(161, 27, 238);
 text-align: center;
 }
-
+.logo {
+    position: fixed;
+    top: 100px;
+    width: 100%;
+}
 nav {
 
 }
-
 main {
     background-color:#8C8A68;
     
 }
-
 article {
 
 }
-ul {
+nav ul {
     position: fixed;
-    top: 0;
+    top: 40px;
     width: 100%;
 }
-
-li {
+nav li {
     list-style-type: none;
-  margin: 10px;
-  padding: 10px;
-  overflow: hidden;
-  background-color: #333;
-  float: left;
+    margin: 10px;
+    padding: 10px;
+    overflow: hidden;
+    background-color: #333;
+    float: left;
 }
-
-li a {
+nav li a {
   display: block;
   color: white;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
 }
-
-/* Change the link color to #111 (black) on hover */
-li a:hover {
+nav li a:hover {
   background-color: #111;
   border-right: 1px solid #bbb;
 }
-
-li:last-child {
+nav li:last-child {
   border-right: none;
 }
-
 footer {
 
 }
