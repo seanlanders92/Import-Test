@@ -7,14 +7,15 @@
 // "here is your tasty var sandwich on var bread"
 
 function makeSandwich (meat, cheese, bread) {
-    var newSandwich = 'here is your tasty' + meat + 'and' + cheese + 'sandwich on' + bread;
-    return sandwich;
+    var newSandwich = ' Here is your tasty ' + meat + ' and ' + cheese + ' sandwich on ' + bread + ' bread ';
+    var sandwichHtml = '<p>' + newSandwich + '</p';
+    return sandwichHtml;
   } 
-  var kindofmeat = prompt('What kind of meat do you want on your sandwich?');
-  var kindofcheese = prompt('What kind of cheese do you want?');
-  var kindofbread = prompt('What kind of bread do you want on your sandwich?');
+  var meat = prompt('What kind of meat do you want on your sandwich?');
+  var cheese = prompt('What kind of cheese do you want?');
+  var bread = prompt('What kind of bread do you want on your sandwich?');
   
-  var sandwich = makeSandwich(kindofmeat, kindofcheese, kindofbread); 
+  var sandwich = makeSandwich(meat, cheese, bread); 
   
   document.write(sandwich);
   
